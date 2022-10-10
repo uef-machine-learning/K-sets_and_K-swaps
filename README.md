@@ -13,21 +13,21 @@ means that there are three sets where the five elements of the first set are ‘
 
 ## Input parameters of k-sets and k-swaps functions
   
-**data** Input sets data, array of n sets
+***data*** Input sets data, array of n sets
 
-**K** Number of clusters
+***K*** Number of clusters
 
-**MAX_HIST_LENGTH** Maximum length of each mean histogram
+***MAX_HIST_LENGTH*** Maximum length of each mean histogram
 
-**RS_ITER**  Number of iterations for k-swaps
+***RS_ITER***  Number of iterations for k-swaps
 
 ## Output parameters of k-sets and k-swaps functions
 
-**labels** data labels after clustering; values from 0 to K-1
+***labels*** data labels after clustering; values from 0 to K-1
 
-**khist** cluster representative; mean histogram of clusters
+***khist*** cluster representative; mean histogram of clusters
 
-**sdh** sum of distances to representative histograms
+***sdh*** sum of distances to representative histograms
 
 ## How to run the code
 
