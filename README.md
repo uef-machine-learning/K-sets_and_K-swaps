@@ -1,4 +1,4 @@
-# K-sets_and_K-swaps
+# K-sets and K-swaps
 K-sets and k-swaps are two clustering algorithms for sets data. K-sets is designed based on the principles of classical k-means so that it repeats the assignment and update steps until convergence. K-swaps adopt the idea into random swap algorithm, which is a wrapper around the k-means that avoids local minima. The mean of cluster is defined as histogram of the elements of the data in the cluster. Both algorithms performs better when the number of elements in each histogram is limited, for example to 20.
 
 ## Preparing input sets data
